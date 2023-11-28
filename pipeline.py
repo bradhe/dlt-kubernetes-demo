@@ -29,7 +29,7 @@ if __name__ == "__main__":
     # configure the pipeline with your destination details
     pipeline = dlt.pipeline(
         pipeline_name='kubernetes',
-        destination='duckdb',
+        destination='motherduck',
         dataset_name='kubernetes_data',
     )
 
